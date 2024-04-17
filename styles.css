@@ -1,0 +1,125 @@
+@charset "utf-8";
+body {
+	background-image: url(images/web_bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header {
+    background-image: url("images/web_nav-bar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top: -15px;
+    margin-right: -8px;
+    margin-left: -15px;
+    margin-bottom: -15px;
+    text-align: right;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "LEMON MILK", "Tw Cen MT";
+    font-weight: bold;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-bottom: -15px;
+    padding-bottom: 30px;
+    margin-right: -15px;
+}
+main {
+	color:white;
+	font-family:"Tw Cen MT";
+}
+#active {
+    background-image: -webkit-repeating-linear-gradient(268deg,rgba(255,145,188,0.00) 0%,rgba(236,49,122,1.00) 100%);
+    background-image: -moz-repeating-linear-gradient(268deg,rgba(255,145,188,0.00) 0%,rgba(236,49,122,1.00) 100%);
+    background-image: -o-repeating-linear-gradient(268deg,rgba(255,145,188,0.00) 0%,rgba(236,49,122,1.00) 100%);
+    background-image: repeating-linear-gradient(182deg,rgba(255,145,188,0.00) 0%,rgba(236,49,122,1.00) 100%);
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+footer {
+	color:white;
+	font-family:"Tw Cen MT";
+	text-align: center;
+	
+}
+.pinkbg {
+	background-color: #EF5692;
+	margin-right: 125px;
+	margin-left: 125px;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	height: auto;
+}
+h1 {
+	font-family: "LEMON MILK";
+	padding-top: 50px;
+	text-align: center;
+}
+.logo {
+	float: left;
+	margin-top: -15px;
+	height:100px;
+	width:350px;
+}
+.align {
+	float: left;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+.socmed {
+    color: white;
+    font-family: "Tw Cen MT";
+    vertical-align: middle;
+    padding: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: -25px;
+}
+.center {
+	text-align: center;
+}
+input {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: "Tw Cen MT";
+    color: #EF5692;
+    width: 100VH;
+}
+.input {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: "Tw Cen MT";
+    color: #EF5692;
+    width: 100VH;
+	max-width: 100VH;
+}
+.button {
+    color: #EF5692;
+    font-family: "Tw Cen MT";
+    color: #EF5692;
+    width: auto;
+}
